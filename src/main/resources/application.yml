@@ -1,1 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/my_petregister
+    username: root
+    password:
+  jpa:
+    database: mysql
+    #show-sql: true
+    hibernate:
+      ddl-auto: update
+    #properties:
+    #  hibernate:
+    #    format_sql: true
+
 
